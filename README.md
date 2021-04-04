@@ -1,33 +1,33 @@
-# PySkiylia
+# RPythonSkiylia
 Dynamically typed Object Oriented Programming Language.
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-![GitHub](https://img.shields.io/github/license/Skiylia-Lang/PySkiylia)
-[![CodeFactor](https://www.codefactor.io/repository/github/skiylia-lang/pyskiylia/badge)](https://www.codefactor.io/repository/github/skiylia-lang/pyskiylia)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Skiylia-Lang/PySkiylia)
-[![codecov](https://codecov.io/gh/Skiylia-Lang/PySkiylia/branch/main/graph/badge.svg?token=DRJ67ZQA7M)](https://codecov.io/gh/Skiylia-Lang/PySkiylia)
-[![time tracker](https://wakatime.com/badge/github/Skiylia-Lang/PySkiylia.svg)](https://wakatime.com/badge/github/Skiylia-Lang/PySkiylia)
+![GitHub](https://img.shields.io/github/license/Skiylia-Lang/RPythonSkiylia)
+[![CodeFactor](https://www.codefactor.io/repository/github/skiylia-lang/RPythonSkiylia/badge)](https://www.codefactor.io/repository/github/skiylia-lang/RPythonSkiylia)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Skiylia-Lang/RPythonSkiylia)
+[![codecov](https://codecov.io/gh/Skiylia-Lang/RPythonSkiylia/branch/main/graph/badge.svg?token=DRJ67ZQA7M)](https://codecov.io/gh/Skiylia-Lang/RPythonSkiylia)
+[![time tracker](https://wakatime.com/badge/github/Skiylia-Lang/RPythonSkiylia.svg)](https://wakatime.com/badge/github/Skiylia-Lang/RPythonSkiylia)
 
-![GitHub language count](https://img.shields.io/github/languages/count/Skiylia-Lang/PySkiylia)
-![GitHub top language](https://img.shields.io/github/languages/top/Skiylia-Lang/PySkiylia)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Skiylia-Lang/PySkiylia)
-![Lines of code](https://img.shields.io/tokei/lines/github.com/Skiylia-Lang/PySkiylia) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+![GitHub language count](https://img.shields.io/github/languages/count/Skiylia-Lang/RPythonSkiylia)
+![GitHub top language](https://img.shields.io/github/languages/top/Skiylia-Lang/RPythonSkiylia)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Skiylia-Lang/RPythonSkiylia)
+![Lines of code](https://img.shields.io/tokei/lines/github.com/Skiylia-Lang/RPythonSkiylia) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Releases
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Skiylia-Lang/PySkiylia?include_prereleases)
-![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/Skiylia-Lang/PySkiylia/latest/develop?include_prereleases)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Skiylia-Lang/PySkiylia)
-![GitHub milestone](https://img.shields.io/github/milestones/progress/Skiylia-Lang/PySkiylia/1)
-![GitHub milestones](https://img.shields.io/github/milestones/open/Skiylia-Lang/PySkiylia)
-![GitHub issues](https://img.shields.io/github/issues-raw/Skiylia-Lang/PySkiylia)
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Skiylia-Lang/PySkiylia)
-![GitHub last commit](https://img.shields.io/github/last-commit/Skiylia-Lang/PySkiylia)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Skiylia-Lang/RPythonSkiylia?include_prereleases)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/Skiylia-Lang/RPythonSkiylia/latest/develop?include_prereleases)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Skiylia-Lang/RPythonSkiylia)
+![GitHub milestone](https://img.shields.io/github/milestones/progress/Skiylia-Lang/RPythonSkiylia/1)
+![GitHub milestones](https://img.shields.io/github/milestones/open/Skiylia-Lang/RPythonSkiylia)
+![GitHub issues](https://img.shields.io/github/issues-raw/Skiylia-Lang/RPythonSkiylia)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Skiylia-Lang/RPythonSkiylia)
+![GitHub last commit](https://img.shields.io/github/last-commit/Skiylia-Lang/RPythonSkiylia)
 
-**PySkiylia: [Latest release](../../releases)**
+**RPythonSkiylia: [Latest release](../../releases)**
 
 Open issues can be found here: [issues](../../issues)
 
@@ -37,7 +37,7 @@ To create an issue, be it a bug, question, feature request, or other, use this l
 
 Skiylia is dynamically typed, object oriented, and most importantly *interpreted*. While it may share many similarities with C derivatives, its heritage is definitely Pythonic.
 
-The main directory housing the PySkiylia interpreter is [here](../../tree/main/PySkiylia). Within that directory is a separate document listing the most important syntax for Skiylia.
+The main directory housing the RPythonSkiylia interpreter is [here](../../tree/main/RPythonSkiylia). Within that directory is a separate document listing the most important syntax for Skiylia.
 
 ## Sample code
 
@@ -64,7 +64,7 @@ Who knows, at some point in the future there may even be a link to a Skiylia tut
 
 ## Running Skiylia
 
-Under the [Latest release] you'll find the most up to date version of PySkiylia, containing all the python sub-modules. Running PySkiylia.py from the command line will open the interpreter in REPL mode, while passing a .skiy file as a second argument will allow execution of said script.
+Under the [Latest release] you'll find the most up to date version of RPythonSkiylia, containing all the python sub-modules. Running RPythonSkiylia.py from the command line will open the interpreter in REPL mode, while passing a .skiy file as a second argument will allow execution of said script.
 
 ## Contributing
 
@@ -74,7 +74,7 @@ Forking this repository is an excellent way to contribute to the code that makes
 
 # Acknowledgements
 
-I, [Jack](https://github.com/SK1Y101), definitely couldn't have created PySkiylia without any outside sources.
+I, [Jack](https://github.com/SK1Y101), definitely couldn't have created RPythonSkiylia without any outside sources.
 
 I owe a huge debt to Bob Nystrom and his excellent book, [Crafting Interpreters](https://craftinginterpreters.com/). Not only did he give me true inspiration to develop Skiylia, but also provided cleanly documented concepts and a delightful read. If there is *anyone* that hasn't yet read his implementation of Lox from cover to cover, I would thoroughly recommend doing so.
 
@@ -95,8 +95,8 @@ All the people who have contributed ([emoji key](https://allcontributors.org/doc
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/SK1Y101"><img src="https://avatars.githubusercontent.com/u/8695579?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jack Lloyd-Walters</b></sub></a><br /><a href="https://github.com/Skiylia-Lang/PySkiylia/commits?author=SK1Y101" title="Code">💻</a> <a href="https://github.com/Skiylia-Lang/PySkiylia/pulls?q=is%3Apr+reviewed-by%3ASK1Y101" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/SK2Y202"><img src="https://avatars.githubusercontent.com/u/81203841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jack Lloyd-Walters</b></sub></a><br /><a href="https://github.com/Skiylia-Lang/PySkiylia/pulls?q=is%3Apr+reviewed-by%3ASK2Y202" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/SK1Y101"><img src="https://avatars.githubusercontent.com/u/8695579?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jack Lloyd-Walters</b></sub></a><br /><a href="https://github.com/Skiylia-Lang/RPythonSkiylia/commits?author=SK1Y101" title="Code">💻</a> <a href="https://github.com/Skiylia-Lang/RPythonSkiylia/pulls?q=is%3Apr+reviewed-by%3ASK1Y101" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/SK2Y202"><img src="https://avatars.githubusercontent.com/u/81203841?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jack Lloyd-Walters</b></sub></a><br /><a href="https://github.com/Skiylia-Lang/RPythonSkiylia/pulls?q=is%3Apr+reviewed-by%3ASK2Y202" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
