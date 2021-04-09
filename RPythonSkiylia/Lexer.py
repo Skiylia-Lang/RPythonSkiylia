@@ -1,24 +1,26 @@
  #!/usr/bin/env python
 """Generates a sequence of tokens from plaintext"""
 
-class Lexer:
+import Utils
+
+class Lexer(Utils.Scan):
     def __init__(self):
         #set the position elements to 1 at start
         self.line = self.char = 1
         #set the lexer elements to 0 at start
-        self.start = self.current = self.indent = 0
+        self.current = self.indent = 0
 
     def scan(self, source):
-        while True:
-            #create an iterable of the remaining source code
-            remaining = iter(source[self.start:])
+        #initialise the Utils.scan
+        super().__init__(source)
+        while not self.atEnd():
             #fetch the next token
-            self.fetchToken(remaining)
+            self.fetchToken()
+            #update our starting position
             self.start = self.current
 
-    def fetchToken(self, source):
-        thischar = next(source)
-        self.current+=1
+    def fetchToken(self):
+        thischar = self.next()
         print(thischar)
 
 lexer = Lexer()

@@ -9,14 +9,15 @@ class Scan:
         #and set the pointer
         self.current = 0
 
+    #fetch the current object
     def peek(self):
         return self.source[self.current]
 
-    def advance(self):
-        if not self.atEnd():
-            self.current+=1
-            return self.source[self.current-1]
-        raise EOFError("Reached end of source")
+    #fetch the current object, and increment
+    def next(self):
+        self.current+=1
+        return self.source[self.current-1]
 
+    #check if we have reached the end of the object itterables
     def atEnd(self):
         return self.current >= len(self.source)
