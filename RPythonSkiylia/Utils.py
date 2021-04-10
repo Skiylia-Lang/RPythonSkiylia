@@ -10,7 +10,9 @@ class Scan:
         self.current = 0
 
     #fetch the current object
-    def peek(self):
+    def peek(self, offset=0):
+        if offset and not self.atEnd(offset):
+            return self.source[self.current+offset]
         return self.source[self.current]
 
     #fetch the current object, and increment
@@ -19,5 +21,7 @@ class Scan:
         return self.source[self.current-1]
 
     #check if we have reached the end of the object itterables
-    def atEnd(self):
+    def atEnd(self, offset=0):
+        if offset:
+            return (self.current+offset) >= len(self.source)
         return self.current >= len(self.source)
